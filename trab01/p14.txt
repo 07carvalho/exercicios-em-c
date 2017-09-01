@@ -1,0 +1,17 @@
+/*
+ * 14 – Dado um vetor ordenado de inteiros com os valores:
+ * 3,12, 20, 25, 40, 50, 55, 90, 95 e 99. Com o primeiro
+ * elemento armazenado na posição 0 e os demais em
+ * posições sucessivas. Dado ainda que as buscas por
+ * elementos neste vetor são realizadas utilizando-se o
+ * algoritmo de busca binária, indique que elementos seriam
+ * comparados com as seguintes chaves de busca,
+ * apresentando os elementos na ordem em que seriam
+ * comparados em cada caso: (P 2005)
+ * a) 4 b) 55
+ */
+
+int arr[10] = {3, 12, 20, 25, 40, 50, 55, 90, 95, 99};
+
+a) 4 = 50, 20, 12, 3
+b) 55 = 50, 90, 55
