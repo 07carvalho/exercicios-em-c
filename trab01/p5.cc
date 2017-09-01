@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+/*
+ * 5 - Faça uma função que receba como parâmetro um vetor
+ * de inteiros (V) e retorne verdadeiro caso o vetor esteja
+ * ordenado de forma crescente (V[i] <= V[j] se i<j).
+ *
+ */
+
 bool verifyArray(int *arr, int len) {
   int i;
   bool result = true;

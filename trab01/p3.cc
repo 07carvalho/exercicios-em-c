@@ -1,6 +1,15 @@
 #include <iostream>
 using namespace std;
 
+/*
+ * 3 - Faça uma função que receba como parâmetro um vetor
+ * com n inteiros e inverta as posições dos elementos de
+ * maneira que o primeiro elemento troque de valor com o
+ * último, o segundo com o penúltimo e assim por diante.
+ * (inverter as posições dos elementos do vetor)
+ *
+ */
+
 void changeArray(int *arr, int len) {
   int i, tmp;
   for (i=0;i<len/2;i++) {

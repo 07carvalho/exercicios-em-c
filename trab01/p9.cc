@@ -1,7 +1,13 @@
 #include <iostream>
 using namespace std;
-
 #define TAM 50
+
+/*
+ * 9 – Faça uma função que receba como parâmetro um nome
+ * e retorne verdadeiro caso o nome seja um palíndromo,
+ * retornando falso em caso contrário.
+ *
+ */
 
 int searchLetter(char *name, char letter) {
   int i, count=0;

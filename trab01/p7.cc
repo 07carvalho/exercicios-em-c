@@ -1,6 +1,14 @@
 #include <iostream>
 using namespace std;
 
+/*
+ * 7 – Faça uma função que receba como parâmetro um inteiro
+ * N e retorne a soma dos quadrados de todos os números
+ * inteiros positivos de valor menor ou igual a N. Calcule
+ * interativamente, sem usar a fórmula para calcular o valor.
+ *
+ */
+
 int sumSquare(int num) {
   int i, sum;
 

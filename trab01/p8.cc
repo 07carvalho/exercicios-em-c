@@ -1,7 +1,15 @@
 #include <iostream>
 using namespace std;
-
 #define TAM 50
+
+/*
+ * 8 – Faça uma função que receba como parâmetros um
+ * nome e uma letra. A função deve retornar a quantidade de
+ * vezes que a letra passada como parâmetro ocorre no nome.
+ * Durante a contagem considere que letras maiúsculas e
+ * minúsculas são iguais.
+ *
+ */
 
 int searchLetter(char *name, char letter) {
   int i, count=0;

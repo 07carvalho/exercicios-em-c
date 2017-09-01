@@ -1,6 +1,15 @@
 #include <iostream>
 using namespace std;
 
+/*
+ * 4 - Faça uma função que receba como parâmetro um texto,
+ * armazenado em um vetor de caracteres de 40 posições eretorne verdadeiro caso o texto contenha a sequência de
+ * caracteres “UFAM” em posições contíguas. Ex: “eu estudo
+ * na UFAM, Universidade Federal do Amazonas” passado
+ * como parâmetro retornaria verdadeiro.
+ *
+ */
+
 bool verifyTxt(char *arr, int len) {
   int i;
 
